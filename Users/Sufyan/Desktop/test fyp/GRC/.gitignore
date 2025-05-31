@@ -1,0 +1,78 @@
+# Ignore nested Git repositories
+client/.git/
+server/.git/
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+~$*
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Build directories
+dist/
+build/
+out/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Debug logs
+*.log
+logs/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# Local development files
+*.local
+
+# Vercel
+.vercel
